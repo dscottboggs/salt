@@ -6,7 +6,7 @@ loaded, grain functions are detected and executed, the functions MUST
 return a dict which will be applied to the main grains dict. This module
 will always be executed first, so that any grains loaded here in the core
 module can be overwritten just by returning dict keys with the same value
-as those returned here
+as those returned her
 """
 
 import datetime
@@ -1638,6 +1638,7 @@ _OS_FAMILY_MAP = {
     "Arch ARM": "Arch",
     "Manjaro": "Arch",
     "Antergos": "Arch",
+    "Garuda": "Arch",
     "ALT": "RedHat",
     "Trisquel": "Debian",
     "GCEL": "Debian",
